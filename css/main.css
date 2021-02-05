@@ -3,6 +3,50 @@
     border: 1px solid black;
     min-height: 200px;
 }
+
+/* _______inizio l'header________ */
 .col-1{
-    border-right: 3px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
 }
+
+.col-1:last-child{
+    border-right: 1px solid black;
+}
+
+p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+/* __________inizio prima sessione_______ */
+
+.col-12{
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+/* _________inizio seconda sessione_________ */
+
+.col-8{
+    border-right: 2px solid black;
+    position: relative;
+}
+.col-2{
+    border-right: 2px solid black;
+    position: relative;
+}
+
+.col-2:last-child{
+    border-right: 1px solid black;
+}
+
+/* _______inizio terza sessione_________ */
+
+.col-6{
+    border-right: 2px solid black;
+    position: relative;
+}
+/* _______inizio quarta sessione_________ */
