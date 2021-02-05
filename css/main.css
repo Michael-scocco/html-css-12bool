@@ -1,0 +1,8 @@
+[class*="col-"]{
+    background-color: #f5c3cb;
+    border: 1px solid black;
+    min-height: 200px;
+}
+.col-1{
+    border-right: 3px solid black;
+}
