@@ -49,4 +49,22 @@ p{
     border-right: 2px solid black;
     position: relative;
 }
-/* _______inizio quarta sessione_________ */
+/* _______inizio quarta footer_________ */
+
+.white-salmon{
+    border: 1px solid white;
+    background-color: #e18583;
+    text-align: center;
+}
+
+.padding{
+    padding: 1%;
+}
+
+.col-6:last-child{
+    border-right: 1px solid black;
+}
+
+div.col-6 div.white-salmon:last-child{
+    border-right: 1px solid white;
+}
